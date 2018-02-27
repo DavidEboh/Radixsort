@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using System;
 using System.Threading;
 
 class EntryPoint
@@ -14,13 +15,27 @@ class EntryPoint
 
         if (element.Displayed)
         {
-            System.Console.WriteLine("Yes! I can see the element, its right there!");
+            GreenMessage("Yes! I can see the element, its right there!");
         }
         else
         {
-            System.Console.WriteLine("Well, something went wrong, I couldn't see the element");
+            RedMessage("Well, something went wrong, I couldn't see the element");
         }
 
         driver.Quit();
+    }
+
+    private static void RedMessage(string message)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine(message);
+        Console.ForegroundColor = ConsoleColor.White;
+    }
+
+    private static void GreenMessage(string message)
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine(message);
+        Console.ForegroundColor = ConsoleColor.White;
     }
 }
