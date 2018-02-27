@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Name Selector", "Setup Envi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ID Selector", "Setup Enviroment\ID Selector\ID Selector.csproj", "{03FE5171-6E99-4A4C-BE0C-A3C630C75620}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Name Selector", "ConsoleApp2\Class Name Selector.csproj", "{5CD715FE-620F-4FCC-A8AB-E367D9C5FB34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{03FE5171-6E99-4A4C-BE0C-A3C630C75620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03FE5171-6E99-4A4C-BE0C-A3C630C75620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03FE5171-6E99-4A4C-BE0C-A3C630C75620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD715FE-620F-4FCC-A8AB-E367D9C5FB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD715FE-620F-4FCC-A8AB-E367D9C5FB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD715FE-620F-4FCC-A8AB-E367D9C5FB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD715FE-620F-4FCC-A8AB-E367D9C5FB34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
