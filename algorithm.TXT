@@ -1,0 +1,43 @@
+b. RadixSort Function
+   i.   Declare the variables and print function if DEBUG is 1
+   ii.  Initialize the queue array
+   iii. Do the first round
+   iv.  For each round, print the queue if PRINTQUEUE is 1
+   v.   For each round, process the queues.
+
+
+c. CreateNode Function
+   i.   Allocate memory
+   ii.  Initialize the node
+   iii. Return the node
+
+
+d. Enqueue Function
+   i.   Add the node to tail
+   ii.  Modify the tail
+   iii. Set p->next to NULL
+
+
+e. Dequeue Function
+   i.   Record the first node
+   ii.  If first is not NULL, modify head and tail
+   iii. Return the first node
+
+
+f. PrintArray Function
+   i.   Print function if DEBUG is 1
+   ii.  Print the title
+   iii. Print each number (10 per line).
+
+
+g. PrintQueue Function
+   i.   Print function if DEBUG is 1
+   ii.  If queue is empty, just print <empty>
+   iii. Print each node in the list.
+
+
+h. CreateArray Function
+   i.   Allocate memory for the array
+   ii.  Print function if DEBUG is 1
+   iii. Calculate the max value.
+   iv.  Initialize the array with random number.
